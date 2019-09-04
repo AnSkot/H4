@@ -1,0 +1,127 @@
+@media screen and (max-width: 640px){
+	.slider-item{
+		height: 322px;
+	}
+	.slide_body{
+		width: 100%;
+	} 
+	.slider-item img{
+		max-width: 83%;
+    	padding: 30px 0 0 25px;
+	}
+	.slide_img{
+		width: 80%;
+	}
+	.slide_1_text {
+		padding: 60px 10px 0 0;
+    	width: 83%;
+	}
+	.slide_1_text h2{
+		font-size: 30px;
+	}
+	.slide_1_text h3{
+		font-size: 22px;
+		padding-top: 10px;
+	}
+	.slide_1_text button{
+    	font-size: 31px;
+    	width: 235px;
+    	height: 53px;
+    	margin: 30px 0 0 0;
+	}   
+	.slide_1_text button:after{
+		left: 8px;
+    	top: 8px;
+    	height: 36px;
+    	width: 36px;
+    	background-size: cover;
+	}
+    .my-arrow-prev{
+    	z-index: -1;
+    }
+    .my-arrow-next{
+    	z-index: -1;
+    }
+    .contrary{
+		flex-direction: column;
+		justify-content: flex-start;	
+	}
+	.contrary-box{
+		flex-direction: row;
+		max-width: 100%;
+		padding: 32px 0 18px 20px;
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+	.contrary-img{
+		float: left;
+	}
+	.contrary-box h3{
+		font-size: 34px;
+		margin:0;
+		font-weight: normal;
+		text-align: left;
+	}
+	.contrary-text{
+		width: 100%;
+		margin-left: 15px;
+		align-items: left;
+	}
+	.contrary-box p{
+		font-size: 19px;
+		text-align: left;
+	}
+	.slick {
+    	height: 322px;
+    }
+    .slick:after{
+    	display: none;
+    }	
+    .contrary{
+    	margin: 0;
+    }
+    .body-shopping {
+    	flex-direction: column;
+    	align-items: center;
+    	font-weight: normal;
+	}
+	.right-objec h3{
+		font-size: 34px;
+	}
+	.right-objec p{
+		font-size: 17px;
+	}
+	
+	nav{
+		position: absolute;
+        height:auto;
+    	width: 100%;
+    	z-index: 1;
+    	top: 88px;
+    	background-color: rgba(80,148,242,0.8);
+  		height: 0;
+    	transition: 0.7s;
+    	overflow: hidden;
+	}
+	.active{
+		height: 230px;
+	}
+	.drop-btn{
+		display: block;
+}
+	.top-line ul{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.top-line a{
+		width: 100%;
+		font-weight: bold;
+		color: black; 
+		text-shadow: 0 0 3px white;
+	}
+	.top-line li:after{
+		border-bottom: 3px solid blue;
+		width: 140%;
+	}
+
+}	
